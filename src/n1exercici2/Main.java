@@ -8,11 +8,11 @@ import java.util.TreeSet;
 public class Main {
     public static void main(String[] args) {
         TreeSet<String> listOfFiles = new TreeSet<>(Collator.getInstance());
-        Path dir = Paths.get("D:/documentos");
-        printListOfFiles(listOfFiles, dir);
-        Path dir2 = Paths.get("D:/eclipse");
+        Path dir = Paths.get("D:/cursoespecializacionjava/documentos");
+        printListOfFiles(listOfFiles,dir);
+
         try {
-            printTreeOfFiles(dir2);
+            printTreeOfFiles(dir);
         } catch (IOException e) {
             System.out.println(e.getMessage());
         }
@@ -39,7 +39,7 @@ public class Main {
     public static void printTreeOfFiles(Path dir) throws IOException {
         FileVisitorImpl fileVisitor = new FileVisitorImpl();
         Files.walkFileTree(dir, fileVisitor);
-        System.out.println(fileVisitor.getListOfFiles());
+//        System.out.println(fileVisitor.getListOfFiles());
     }
 
 }

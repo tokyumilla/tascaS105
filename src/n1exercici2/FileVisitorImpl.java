@@ -14,8 +14,16 @@ import java.util.stream.Collector;
 public class FileVisitorImpl extends SimpleFileVisitor<Path> {
     private TreeSet<String> listOfFiles = new TreeSet <> (Collator.getInstance());
 
-    public TreeSet<String> getListOfFiles() {
-        return listOfFiles;
+//    public TreeSet<String> getListOfFiles() {
+//        return listOfFiles;
+//    }
+
+    @Override
+    public FileVisitResult preVisitDirectory(Path dir, BasicFileAttributes attrs) throws IOException {
+        System.out.println("La carpeta " + dir.getFileName() + " contiene los siguientes ficheros ordenados " +
+                "alfabéticamente:");
+
+        return super.preVisitDirectory(dir, attrs);
     }
 
     @Override
@@ -28,7 +36,10 @@ public class FileVisitorImpl extends SimpleFileVisitor<Path> {
         return FileVisitResult.CONTINUE;
     }
 
-
-
-
+    @Override
+    public FileVisitResult postVisitDirectory(Path dir, IOException exc) throws IOException {
+        System.out.println(listOfFiles);
+        listOfFiles.clear();
+        return super.postVisitDirectory(dir, exc);
+    }
 }

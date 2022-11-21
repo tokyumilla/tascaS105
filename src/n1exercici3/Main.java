@@ -1,10 +1,9 @@
-package n1exercici2;
+package n1exercici3;
 
 import java.io.File;
 import java.io.IOException;
-import java.nio.file.*;
+import java.nio.file.Files;
 import java.text.Collator;
-import java.util.Arrays;
 import java.util.TreeSet;
 
 public class Main {

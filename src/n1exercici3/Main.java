@@ -18,13 +18,6 @@ public class Main {
         File file = path.toFile();
         String introduction = "La carpeta " + file.getName() + " tiene la siguiente estructura (de abajo a arriba): \n";
 
-        System.out.println("La carpeta " + file.getName() + " tiene la siguiente estructura (de abajo a arriba):");
-
-        try {
-            printTreeOfFiles(file);
-        } catch (IOException e) {
-            System.out.println(e.getMessage());
-        }
 
         printInTxt(introduction);
         try {

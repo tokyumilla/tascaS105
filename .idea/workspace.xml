@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c97cece7-9671-40aa-85ea-2bdafc1b4fde" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/n1exercici4/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/n1exercici3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/n1exercici3/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +38,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="n1exercici4" />
       <recent name="n1exercici3" />
       <recent name="n1exercici2" />
     </key>
@@ -79,7 +80,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669051685797</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Ejercicio 3 terminado">
+      <created>1669054625122</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669054625122</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Ejercicio 3 terminado, con métodos eliminados">
+      <created>1669054666846</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669054666846</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -98,6 +113,24 @@
     <MESSAGE value="Ejercicio 2 finalizado" />
     <MESSAGE value="Intentando que el orden alfabético sea en cada nivel" />
     <MESSAGE value="Ejercicio 2 terminado" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio 2 terminado" />
+    <MESSAGE value="Ejercicio 3 terminado" />
+    <MESSAGE value="Ejercicio 3 terminado, con métodos eliminados" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio 3 terminado, con métodos eliminados" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/n1exercici4/Main.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/n1exercici4/Main.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
